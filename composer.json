@@ -1,0 +1,11 @@
+{
+    "name": "liuyaofang/composer",
+    "description": "test",
+    "authors": [
+        {
+            "name": "lyf",
+            "email": "604688168@qq.com"
+        }
+    ],
+    "require": {}
+}
