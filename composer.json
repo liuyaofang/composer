@@ -7,5 +7,14 @@
             "email": "604688168@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload":{
+        "files":[
+            "core/functions.php"
+        ],
+    	"psr-4":{
+    		"core\\":"core",
+    		"web\\":"web"
+    	}
+    }
 }
