@@ -7,7 +7,9 @@
             "email": "604688168@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
     "autoload":{
         "files":[
             "core/functions.php"
@@ -16,5 +18,11 @@
     		"core\\":"core",
     		"web\\":"web"
     	}
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }

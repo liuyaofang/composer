@@ -2,6 +2,7 @@
 namespace core;
 class Bootstrap {
 	public static function run(){
+		session_start();
 		self::parseUrl();
 	}
 
